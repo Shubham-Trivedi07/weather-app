@@ -2,7 +2,7 @@ const http =require('http');
 
 const { userInfo } = require('os');
 
-const url = 'https://api.openweathermap.org/data/2.5/weather?q=+Mumbai,IN&appid=8ddb4d54c85456c0a34d089448bd3a95&units=metric';
+const url = 'https://api.openweathermap.org/data/2.5/weather?q=+Ujjain,IN&appid=8ddb4d54c85456c0a34d089448bd3a95&units=metric';
 
 const server = http.createServer(function(request,response){
 
